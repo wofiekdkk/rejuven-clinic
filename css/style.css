@@ -1,4 +1,4 @@
-﻿/* ============================================
+/* ============================================
    REJUVEN — REFINED EDITORIAL & GRAPHICS
    ============================================ */
 
@@ -158,9 +158,9 @@ img { display: block; max-width: 100%; }
 .intro-visual { max-width: 1400px; margin: 60px auto 0; display: grid; grid-template-columns: 1.4fr 1fr 1.2fr; gap: 20px; height: 500px; }
 .iv-block { border-radius: 6px; background-size: cover; background-position: center; filter: grayscale(20%); transition: transform 0.5s; }
 .iv-block:hover { transform: scale(1.02); }
-.iv-1 { background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80'); }
-.iv-2 { background-image: url('https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&q=80'); margin-top: 40px; }
-.iv-3 { background-image: url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80'); }
+.iv-1 { background-image: url('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=1600&q=90&auto=format&fit=crop'); }
+.iv-2 { background-image: url('https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=1600&q=90&auto=format&fit=crop'); margin-top: 40px; }
+.iv-3 { background-image: url('https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1600&q=90&auto=format&fit=crop'); }
 
 /* ==== CHAPTER CONTENT ==== */
 .chapter-hero { max-width: 1400px; margin: 0 auto 50px; }
@@ -244,8 +244,8 @@ img { display: block; max-width: 100%; }
 .doc-row.reverse { grid-template-columns: 1.1fr 1fr; direction: rtl; }
 .doc-row.reverse > * { direction: ltr; }
 .doc-image { position: relative; width: 100%; height: 520px; background-size: cover; background-position: center top; border-radius: 8px; }
-.doc-dipty { background-image: url('https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80'); }
-.doc-anuj { background-image: url('https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=800&q=80'); }
+.doc-dipty { background-image: none; background-color: rgba(10, 10, 10, 0.04); }
+.doc-anuj { background-image: none; background-color: rgba(10, 10, 10, 0.04); }
 .doc-badge { position: absolute; top: 15px; left: 15px; background: var(--ivory); color: var(--ink); font-family: var(--serif); font-size: 0.8rem; font-style: italic; padding: 4px 10px; border-radius: 2px; }
 .doc-role { font-family: var(--sans); font-size: 0.65rem; letter-spacing: 2px; color: var(--accent); text-transform: uppercase; display: block; margin-bottom: 10px; }
 .doc-name { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 4rem); font-weight: 300; line-height: 1; margin-bottom: 20px; }
@@ -270,6 +270,10 @@ img { display: block; max-width: 100%; }
     .nav-burger { display: flex; }
     
     .hero-inner, .intro, .chapter, .doctors, .footer { padding: 80px 25px; }
+    .hero-foot { flex-direction: column; align-items: flex-start; gap: 24px; }
+    .hero-meta { flex-wrap: wrap; gap: 8px 10px; max-width: 100%; letter-spacing: 1.5px; }
+    .hero-scroll { flex-direction: row; align-items: center; gap: 10px; white-space: nowrap; }
+    .scroll-line { width: 40px; height: 1px; }
     .intro-grid, .intro-body, .chapter-content, .spine-grid, .doc-row, .doc-row.reverse, .foot-grid { grid-template-columns: 1fr; gap: 30px; direction: ltr; }
     .laser-info { grid-template-columns: 1fr 1fr; }
     .showcase-content { padding: 0 25px; }
